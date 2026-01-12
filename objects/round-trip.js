@@ -8,6 +8,7 @@ const departTripTicket = {
     upgrade() {
         if (this.businessClass === false) {
             this.businessClass = true;
+            console.log("Your ticket has been upgraded to business class!");
         }
         else {
             console.log("Your ticket is already business class!");
@@ -29,6 +30,7 @@ const returnTripTicket = {
     upgrade() {
         if (this.businessClass === false) {
             this.businessClass = true;
+            console.log("Your ticket has been upgraded to business class!");
         }
         else {
             console.log("Your ticket is already business class!");
